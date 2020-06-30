@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/deanroker123/ratelimit"
 	"github.com/deanroker123/ratelimit/clock"
 	"go.uber.org/atomic"
-	"go.uber.org/ratelimit"
 
 	"github.com/stretchr/testify/assert"
 )

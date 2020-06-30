@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package ratelimit // import "go.uber.org/ratelimit"
+package ratelimit // import "github.com/deanroker123/ratelimit"
 
 import (
 	"time"
