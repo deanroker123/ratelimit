@@ -23,9 +23,10 @@ package ratelimit // import "go.uber.org/ratelimit"
 import (
 	"time"
 
-	"go.uber.org/ratelimit/internal/clock"
 	"sync/atomic"
 	"unsafe"
+
+	"github.com/deanroker123/ratelimit/clock"
 )
 
 // Note: This file is inspired by:
